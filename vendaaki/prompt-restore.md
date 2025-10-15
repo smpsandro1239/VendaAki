@@ -25,10 +25,9 @@ Plataforma de classificados/compra e venda local com autenticação de utilizado
 ---
 
 ## 📂 Estrutura do Projeto (Local)
-- Repositório: local em `C:\laragon\www\VendaAki\VendaAki`
-- Branch atual: main
-- Último commit: (preencher manualmente: ver `git log` localmente)
-- Pasta raiz: `C:\laragon\www\VendaAki\VendaAki`
+- - Branch atual: main
+- - Último commit: 0336bd6 - chore: inteirar novamente do projeto
+- - Pasta raiz: `C:\laragon\www\VendaAki\VendaAki`
 
 ---
 
