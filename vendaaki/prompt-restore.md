@@ -58,6 +58,46 @@ Plataforma de classificados/compra e venda local com autenticação de utilizado
 - MySQL (ou MariaDB) rodando localmente
 - Variáveis de ambiente: use `.env.example` como base e configure `DB_*` e `APP_KEY`
 
+### Variáveis de ambiente (extraídas de `.env.example`)
+As chaves abaixo estão presentes em `.env.example`. Copia o ficheiro e ajusta os valores locais antes de correr a aplicação.
+
+- APP_NAME=VendaAki
+- APP_ENV=local
+- APP_KEY=
+- APP_DEBUG=true
+- APP_URL=http://localhost
+- APP_TIMEZONE=UTC
+- LOG_CHANNEL=stack
+- LOG_LEVEL=debug
+
+# Database
+- DB_CONNECTION=mysql (ou sqlite)
+- DB_HOST=127.0.0.1
+- DB_PORT=3306
+- DB_DATABASE=vendaaki_db
+- DB_USERNAME=sail
+- DB_PASSWORD=password
+
+# Cache / Session / Queue
+- CACHE_STORE=file
+- SESSION_DRIVER=file
+- QUEUE_CONNECTION=sync
+
+# Mail
+- MAIL_MAILER=log
+- MAIL_FROM_ADDRESS="hello@vendaaki.pt"
+- MAIL_FROM_NAME="${APP_NAME}"
+
+# Filesystem
+- FILESYSTEM_DISK=local
+
+# Locale / App specifics
+- APP_LOCALE=pt_PT
+- APP_FALLBACK_LOCALE=en
+- APP_FAKER_LOCALE=pt_PT
+
+> Nota: Existem mais chaves comentadas em `.env.example` (Redis, AWS, Vite/Pusher). Mantém apenas as que usares.
+
 ### Comandos para rodar o projeto (local - Laragon)
 ```bash
 # Instalar dependências PHP
